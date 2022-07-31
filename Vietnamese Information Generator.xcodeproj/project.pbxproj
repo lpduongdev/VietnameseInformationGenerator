@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B74009482897032C00CA419B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74009472897032C00CA419B /* AppDelegate.swift */; };
+		B740094A2897032C00CA419B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74009492897032C00CA419B /* SceneDelegate.swift */; };
+		B740094C2897032C00CA419B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B740094B2897032C00CA419B /* ViewController.swift */; };
+		B740094F2897032C00CA419B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B740094D2897032C00CA419B /* Main.storyboard */; };
+		B74009512897032F00CA419B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B74009502897032F00CA419B /* Assets.xcassets */; };
+		B74009542897032F00CA419B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74009522897032F00CA419B /* LaunchScreen.storyboard */; };
+		B7400961289707C000CA419B /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B740095F289707C000CA419B /* Bank.swift */; };
+		B7400962289707C000CA419B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7400960289707C000CA419B /* Location.swift */; };
+		B74009672897080D00CA419B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74009662897080D00CA419B /* Utils.swift */; };
+		B740096C289708A500CA419B /* NameGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B740096B289708A500CA419B /* NameGenerator.swift */; };
+		B740096E289708CB00CA419B /* BankGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B740096D289708CB00CA419B /* BankGenerator.swift */; };
+		B74009702897138000CA419B /* LocationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B740096F2897138000CA419B /* LocationGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B74009442897032C00CA419B /* Vietnamese Information Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vietnamese Information Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74009472897032C00CA419B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B74009492897032C00CA419B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B740094B2897032C00CA419B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B740094E2897032C00CA419B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B74009502897032F00CA419B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B74009532897032F00CA419B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B74009552897032F00CA419B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B740095F289707C000CA419B /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		B7400960289707C000CA419B /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B74009662897080D00CA419B /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B740096B289708A500CA419B /* NameGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameGenerator.swift; sourceTree = "<group>"; };
+		B740096D289708CB00CA419B /* BankGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankGenerator.swift; sourceTree = "<group>"; };
+		B740096F2897138000CA419B /* LocationGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationGenerator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B74009412897032C00CA419B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B740093B2897032C00CA419B = {
+			isa = PBXGroup;
+			children = (
+				B74009462897032C00CA419B /* Vietnamese Information Generator */,
+				B74009452897032C00CA419B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B74009452897032C00CA419B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B74009442897032C00CA419B /* Vietnamese Information Generator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B74009462897032C00CA419B /* Vietnamese Information Generator */ = {
+			isa = PBXGroup;
+			children = (
+				B740096A2897085800CA419B /* Utils */,
+				B740095E2897077100CA419B /* Controllers */,
+				B740095D2897076D00CA419B /* Views */,
+				B740095B2897076200CA419B /* Models */,
+				B74009472897032C00CA419B /* AppDelegate.swift */,
+				B74009492897032C00CA419B /* SceneDelegate.swift */,
+				B74009502897032F00CA419B /* Assets.xcassets */,
+				B74009552897032F00CA419B /* Info.plist */,
+			);
+			path = "Vietnamese Information Generator";
+			sourceTree = "<group>";
+		};
+		B740095B2897076200CA419B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B740095F289707C000CA419B /* Bank.swift */,
+				B7400960289707C000CA419B /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B740095D2897076D00CA419B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B740094D2897032C00CA419B /* Main.storyboard */,
+				B74009522897032F00CA419B /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B740095E2897077100CA419B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B740094B2897032C00CA419B /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B740096A2897085800CA419B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B74009662897080D00CA419B /* Utils.swift */,
+				B740096B289708A500CA419B /* NameGenerator.swift */,
+				B740096D289708CB00CA419B /* BankGenerator.swift */,
+				B740096F2897138000CA419B /* LocationGenerator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B74009432897032C00CA419B /* Vietnamese Information Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B74009582897032F00CA419B /* Build configuration list for PBXNativeTarget "Vietnamese Information Generator" */;
+			buildPhases = (
+				B74009402897032C00CA419B /* Sources */,
+				B74009412897032C00CA419B /* Frameworks */,
+				B74009422897032C00CA419B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vietnamese Information Generator";
+			productName = "Vietnamese Information Generator";
+			productReference = B74009442897032C00CA419B /* Vietnamese Information Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B740093C2897032C00CA419B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B74009432897032C00CA419B = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = B740093F2897032C00CA419B /* Build configuration list for PBXProject "Vietnamese Information Generator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B740093B2897032C00CA419B;
+			productRefGroup = B74009452897032C00CA419B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B74009432897032C00CA419B /* Vietnamese Information Generator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B74009422897032C00CA419B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74009542897032F00CA419B /* LaunchScreen.storyboard in Resources */,
+				B74009512897032F00CA419B /* Assets.xcassets in Resources */,
+				B740094F2897032C00CA419B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B74009402897032C00CA419B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B740094C2897032C00CA419B /* ViewController.swift in Sources */,
+				B74009702897138000CA419B /* LocationGenerator.swift in Sources */,
+				B740096E289708CB00CA419B /* BankGenerator.swift in Sources */,
+				B7400961289707C000CA419B /* Bank.swift in Sources */,
+				B7400962289707C000CA419B /* Location.swift in Sources */,
+				B740096C289708A500CA419B /* NameGenerator.swift in Sources */,
+				B74009482897032C00CA419B /* AppDelegate.swift in Sources */,
+				B740094A2897032C00CA419B /* SceneDelegate.swift in Sources */,
+				B74009672897080D00CA419B /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B740094D2897032C00CA419B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B740094E2897032C00CA419B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B74009522897032F00CA419B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B74009532897032F00CA419B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B74009562897032F00CA419B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B74009572897032F00CA419B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B74009592897032F00CA419B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62APDV5ZU8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vietnamese Information Generator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainvn.Vietnamese-Information-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B740095A2897032F00CA419B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62APDV5ZU8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vietnamese Information Generator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainvn.Vietnamese-Information-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B740093F2897032C00CA419B /* Build configuration list for PBXProject "Vietnamese Information Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74009562897032F00CA419B /* Debug */,
+				B74009572897032F00CA419B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B74009582897032F00CA419B /* Build configuration list for PBXNativeTarget "Vietnamese Information Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74009592897032F00CA419B /* Debug */,
+				B740095A2897032F00CA419B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B740093C2897032C00CA419B /* Project object */;
+}
